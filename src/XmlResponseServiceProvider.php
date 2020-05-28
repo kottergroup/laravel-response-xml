@@ -26,4 +26,9 @@ class XmlResponseServiceProvider extends ServiceProvider
             return (new XmlResponse())->array2xml($value, false, $config, $status);
         });
     }
+    
+    public function register()
+    {
+    //
+    }
 }
